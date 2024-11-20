@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Thibault Caron</title>
 
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
     <header>
@@ -25,12 +25,12 @@
         <h1>Thibault Caron</h1>
     </header>
     <main>
-        <section>
+        <section class="margins">
             <h2>Hello</h2>
             <article class="grid-for-articles">
                 <figure>
                     <img src="../images/PhotoTib02.png" alt="Photographie de Tibault Caron">
-                    <figcaption>pic</figcaption>
+                    <figcaption></figcaption>
                 </figure>
 
                 <dl class="pc-only">
@@ -44,15 +44,16 @@
                         <dt>Profession:</dt>
                         <dd>Software Developer</dd>
 
-                        <dt>Lattest Projects:</dt>
-                        <dd>Personnal Portfolio</dd>
+                        <dt>Latest Projects:</dt>
+                        <dd>Personal Portfolio</dd>
                         <dd>Fansite</dd>
                         <dd>Flower shop website</dd>
                         <dd>Wordle in Rust</dd>
 
                         <dt>Hobbies:</dt>
-                        <dd>Editing ebooks (<em>Tools</em>: Zettlr, Pandoc, Calibre)</dd>
-                        <dd>Tezuka Osamu Cultural Prize (2002)</dd>
+                        <dd>Editing ebooks (<strong>Tools</strong>: Zettlr, Pandoc, Calibre)</dd>
+                        <dd>Reading</dd>
+                        <dd>Hiking</dd>
                 </dl>
         
                 <section class="tablet-only">
@@ -61,40 +62,54 @@
                     <p class="left-text"><strong>Nationality:</strong></p>
                     <p>French</p>
                     <p class="left-text"><strong>Profession:</strong></p>
-                    <p>Mangaka</p>
-                    <p class="left-text"><strong>Période d'activité:</strong></p>
-                    <p>1985-2021</p>
-                    <p class="left-text"><strong>Editeur associé:</strong></p>
-                    <p>Hakusensha</p>
-                    <p class="left-text"><strong>Scénariste associé:</strong></p>
-                    <p>Buronson</p>
-                    <p class="left-text"><strong>Oeuvres principales:</strong></p>
-                    <p>Berserk</p>
-                    <p>Gigantomachia</p>
-                    <p>Japan</p>
-                    <p>Oh-roh</p>
-                    <p class="left-text"><strong>Prix notables:</strong></p>
-                    <p>Shōnen Magazine: "Newcomer Manga Award (1985)"</p>
-                    <p>Tezuka Osamu Cultural Prize (2002)</p>
+                    <p class="left-text"><strong>Latest Projects:</strong></p>
+                    <p>Personal Portfolio</p>
+                    <p>Fansite</p>
+                    <p>Flower shop website</p>
+                    <p>Wordle in Rust</p>
+                    <p class="left-text"><strong>Hobbies:</strong></p>
+                    <p>Editing ebooks (<strong>Tools</strong>: Zettlr, Pandoc, Calibre)</p>
+                    <p>Reading</p>
+                    <p>Hiking</p>
                 </section>
 
             </article>
             <details>
-                <summary><h2>Carrière et influences</h2></summary>
-                <article>
-                    <h3>Carrière de mangaka</h3>
-
-                    <p>En 1985, Kentarō Miura fait une demande pour entrer à l'université Nihon, une université privée située à Chiyoda, dans la région du Kantō. Il soumet à cette occasion un court projet intitulé Futatabi (再び, litt. « Une fois de plus ») pour examen et est admis. Un autre projet appelé NOA, est publié dans le Fresh Magazine la même année. En 1988, alors qu'il travaille pour Buronson sur un projet intitulé Oh-roh (王狼, Ō-rō, litt. « Le roi des loups »), Kentarō Miura publie le prototype de Berserk dans le Monthly ComiComi de Hakusensha. Il remporte pour l'occasion le prix Comi Manga. </p>
-
-                    <p>En 1990, une suite de Oh-roh (王狼, Ō-rō, litt. « Le roi des loups ») intitulée Oh-roh-Den (王狼伝, Ō-rō den) est publié dans le même magazine. En 1992, le Monthly Animal House est rebaptisé Young Animal. La même année, Kentarō Miura collabore avec Buronson sur le manga Japan (ジャパン) qui a également été publié dans Young Animal. En 1997, Kentarō Miura supervise la production d'une adaptation animée de vingt-cinq épisodes de Berserk produite par le studio OLM et diffusée la même année sur Nippon TV. En 2002, il reçoit le prix d'excellence du Prix culturel Osamu Tezuka pour Berserk</p>
-
-                    <p>En 2013, Kentarō Miura prend une pause d'une année sur le manga Berserk pour changer son style de dessin et passer au numérique. Il s'entraine alors sur une one-shot et publie le manga Gigantomachia (ギガントマキア, Gigantomakhia).</p>
-                </article>
-                <article>
-                    <h3>Influences</h3>
-
-                    <p>Kentarō Miura a déclaré que le travail qui a eu le plus d'impact sur lui-même était le manga Ken le Survivant (北斗の拳, Hokuto no Ken) de Buronson et Tetsuo Hara. Il a également cité comme influences le manga Violence Jack (バイオレンス ジャック, Baiorensu Jakku) de Gō Nagai, la série de nouvelles d'heroic fantasy Guin Saga (グイン・サーガ, Guin Sāga) de Kaoru Kurimoto, les contes de Grimm, les films de Paul Verhoeven et de Sam Raimi, la série de films d'horreur Hellraiser, le film Le Nom de la rose, la série télévisée Highlander et les films de Walt Disney Pictures ainsi que les différentes œuvres de Jérôme Bosch, Maurits Cornelis Escher, Gustave Doré ou encore Pieter Brueghel l'Ancien.</p>
-                </article>
+                <summary><h2>Professional experiences</h2></summary>
+                <!-- <article> -->
+                    <details>
+                        <summary><h3>Missions Interim diverses</h3></summary>
+                        
+                        <h4><time datetime="2024-08">2024/08</time> - <time datetime="2024-10">2024/10</time>, Aix-en-Pce<br/>
+                            STEF LOGISTIQUE | Preparateur de Commandes</h4>
+            
+                        <h4><time datetime="2024-07">2024/07</time>, La Molle<br/>
+                            PACHACAID | Agent d’Entretien</h4>
+        
+                        <h4>...<h4>
+                    </details>
+        
+                    <h3><time datetime="2022-11">2022-11</time> - <time datetime="2023-02">2023-02</time>, Mouans-Sartoux<br/>
+                        MDB MULTIMEDIA | Stage Développeur Full Stack</h3>
+        
+                    <h3><time datetime="2016-07">2016-07</time> - <time datetime="2017-05">2017-05</time>, Aix-en-Provence<br/>
+                    CAISSE D'EPARGNE | Assistant Gestion de Portefeuille</h3>
+        
+                    <!-- <h3><time datetime=""></time><time datetime=""></time><br/></h3> -->
+                <!-- </article> -->
+               
+            </details>
+            <details>
+                <summary><h2>Training</h2></summary>
+                
+                <h3><time datetime="2024">2024</time>, Marseille<br/>
+                    La Plateforme: Développement Logiciel</h3>
+    
+                <h3><time datetime="2022">2022</time> - <time datetime="2023">2023</time>, Nice<br/>
+                    AFPA - Concepteur-développeur d'applications</h3>
+    
+                <h3><time datetime="2012">2012</time> - <time datetime="2016">2016</time>, Poitiers & Londres<br/>
+                    ESCEM (Ecole Supérieure de Commerce) & Greenwich University - Master: Global Financial Management</h3>  
             </details>
         </section>
     </main>
