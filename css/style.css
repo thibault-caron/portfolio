@@ -264,7 +264,7 @@ h1, h2, h3, h4, .h5-like {
   font-variant-caps: small-caps;
   text-align: center;
 }
-h1{margin: 0;
+h1 {margin: 0;
   color: var(--primary-color);
   -webkit-text-stroke: 1px var(--secondary-color);
   padding: .3em 0 .4em;
@@ -294,6 +294,8 @@ h2:first-of-type {  margin-top: 0;}
 
 /* fin titres */
 
+/* about */
+
 p {
   line-height: 1.2em;
   text-align: justify;
@@ -319,7 +321,6 @@ dl {display: grid;
   /* dd:not(+dd) {
     margin-bottom: 1.8em;
   } */
-
 }
 .tablet-only {
     p {
@@ -378,6 +379,12 @@ summary::after {
 details {
   padding: 0 0.5em 0.2em;
   border-bottom: 2px solid var(--secondary-color);
+  ul {
+    li {
+      color: var(--text-color);
+      text-align: left;
+    }
+  }
 }
 /* details[open] > summary {
   border-bottom: 2px solid var(--secondary-color);
@@ -409,7 +416,7 @@ img {
 }
 figure {
   /* border: 8px solid var(--border-color); */
-  padding: 0.5em 0.5em 0;
+  padding: 0.5em 0.5em 0.3em;
   margin: auto;
   /* box-shadow: var(--box-shadow);
   background-color: white; */
@@ -420,7 +427,7 @@ figure {
     caption-side: bottom;
     text-align: center;
     color: var(--text-color);
-    margin: 0 0 1.5em;
+    margin: 0 0 0.5em;
   }
 }
 iframe {
